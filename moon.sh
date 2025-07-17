@@ -2,9 +2,9 @@
 ###############################
 # Author: Marco Flores-Coronado
 # version: 0
-# This script prints ascii art at full moon and new moon dates
-
-# setting seed to current date in seconds
+# This script is for a function that interpolates
+# the closest moon phase within 8 posibilities
+# The moon function is installed on .zshrc
 
 dir=$1
 
