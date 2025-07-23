@@ -20,6 +20,6 @@ if [ ${moon_phase_pct} -ge 44 ] && [ ${moon_phase_pct} -le 57 ]; then
 	echo -e "\035[${moon}\035[m"
 
 elif [ ${moon_phase_pct} -ge 94 ] || [ ${moon_phase_pct} -le 7 ]; then
-	moon=$(cat $dir/ascii/*.n})
+	moon=$(cat $dir/ascii/*.n)
 	echo -e "\035[${moon}\035[m"
 fi
